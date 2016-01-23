@@ -1,0 +1,5 @@
+Welcome to <%= node['motd-attributes']['company'] %>
+<%= node['motd-attributes']['message'] %>
+The hostname of this node is <%= node['hostname'] %>
+Part of environment '<%= node.chef_environment %>'
+The IP address of this node is <%= node['ipaddress'] %>
